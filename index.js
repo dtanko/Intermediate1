@@ -9,5 +9,5 @@ console.log(mul)
 
  //In the same index.js file, create variables for your first name, last name, Stutern track, skills, favourite color, year of your country’s independence. Use these variables to form a sentence and log the sentence in the console.
 let f_name= "David", l_name = "Tanko", stutern_track = "Front-end Developer", skills = "HTML, CSS and JavaScript", year = 1990, colour_1="white";
-var f_snt="Hi!, my names is " + f_name +" " +l_name + "and I am currently enrolled at " + stutern_track + "and have acquired these skills: " + skills+". My country Nigeria had her independence in " + year + " and hey my favourite colour is "+ colour_1+". Thank you.";
+var f_snt="Hi!, my names is " + f_name +" " +l_name + " and I am currently enrolled at " + stutern_track + " and have acquired these skills: " + skills+". My country Nigeria had her independence in " + year + " and hey my favourite colour is "+ colour_1+". Thank you.";
 console.log(f_snt)
