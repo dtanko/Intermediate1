@@ -1,41 +1,99 @@
-**What runs JavaScript outside the browser ?**
-_Node is a C++ program that includes googles v8 Javascript engine_
+**(1)   List the symbols for each of the below Javascript operators**
+**Arithmetic Operators**
+    Addition(+)
+        __2 + 3__
+        __a + b__
+    Subtraction(-)
+        __2 - 3__
+        __a - b__
+    Multiplication(*)
+        __2 * 3__
+        __a * b__
+    Division(/)
+        __2 / 3__
+        __a / b__
+    Remainder(%)
+        __12 % 7__
+        __a % b__
+    Increment(++)
+        __x=3, then ++x=4__
+    Decrement(--)
+        __x=3, then --x=2__
+    Unary nagation(-)
+        __x=2 then -x=-2__
+    Unary Plus(+)
+        __x=2 then +x=+2__
+    Exponential(**)
+        __2**3__
+        __a ** b__
 
-**Name 5 things Javascript can do.**
-_Javascript can be use in the following ways_
-_1.  Adding interactive behavior to web pages_
-_2.  Creating web and mobile app_
-_3.  Building web servers and developing server applications_
-_4.  Game development_
-_5.  Build Real-time Networking Applications like Chats, Video streaming services, command line tools_
+**Assignment Operators**
+    Equal(=)
+    Addition(+=)
+    Subtraction(-=)
+    Multiplication(*=)
+    Division(/=)
+    Remainder(%=)
+    Exponential(**=)
+    Left shift (<<=)
+    Right shift(>>=)
+    Bitwise AND(&=)
+    Bitwise XOR(^=)
+    Bitwise OR(|=)
+    Logical AND(&&=)
+    Logical OR(||=)
 
-**When was ECMAScript first released ?**
-_The first version of ECMAScript was released in 1997_
+**Examples**
+        1. let x = 10;
+                x += 5;
+        2. let x = 3
+                x **= 6
 
-**How do you log to the console?**
-_1. Open up Chrome_
-_2. Right Click on  empty area and go to inspect_
-_3. This opens up chrome developer tools. Here, select the console tab. This is the Javascript console and you can write any valid javascript here._
+**Comparison Operators**
+    Equal(==)
+    Not equal(!=)
+    Strict equal(===)
+    Strict not equal(!==)
+    Greater than(>)
+    Less than(<)
+    Greater than or equal(>=)
+    Greater than or equal(<=)
 
-**List the tech fields that use JavaScript, for example FrontEnd.**
-_1.  Web Application Developer_
-_2.  UX/UI Designer_
-_3.  Full Stack Developer_
-_4.  Back-End Web Developer_
-_5.  Web Designer_
-_6.  System Administration_
-_7.  JavaScript Developer_
+**Examples**
+        1. 3 == var1
+            "3" == var1
+            3 == '3'
+        2. var1 !== "3"
+            3 !== '3'
 
-**Differentiate between Statically typed and Dynamically typed programming languages**
-_~~dynamically-typed languages~~ perform type checking at runtime, while ~~statically typed languages~~ perform type checking at compile time.
-_~~Statically-typed languages~~ require you to declare the data types of your variables before you use them, while ~~dynamically-typed languages~~ do not._
-_Additionally, unlike statically-typed languages, dynamically-typed languages are more flexible and can save time and space when writing script_
+**Logical Operators**
+    Logical AND(&&)
+    Logical OR(||)
+    Logical NOT(!)
 
-**Examples of dynamically-typed languages**
-_Common examples of dynamically-typed languages includes JavaScript, Objective-C, PHP, Python, Ruby, Lisp, and Tcl._
-**Examples of statically-typed languages**
-_Some common examples of programming languages that belong to this category are Java, Haskell, C, C++, C#, Scala, Kotlin, Fortran, Go, Pascal, and Swift._
+**Examples**
+    1. const a1 = true && true; // t && t returns true
+    2. const a2 = true && false; // t && f returns false
 
-**Differentiate between the JavaScript data types ‘null’ and ‘undefined**
-_Null is an assigned value, that's it is intentional absence of value_
-_Undefined: undefined means a variable has been declared but not defined yet. In another words, it means the value does not exist in the compiler_
+**Bitwise Operators**
+    AND(&)
+    OR(|)
+    XOR(^)
+    NOT(~)
+    Zero fill left shift(<<)
+    Signed right shift(>>)
+    Zero fill right shift(>>>)
+
+**Examples**
+    1. a & b
+    2. A | b
+
+
+**4.  What is the result when the following program is executed?**
+
+for (let i=1; i<20; i+=7){
+    console.log(i);
+}
+
+**The result is 1  8  15**
+
